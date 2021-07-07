@@ -1,5 +1,4 @@
 FROM python:3.8.11-alpine
-USER node
 ADD ./ /seed/
 WORKDIR /seed
 ENV ENVIRONMENT=local
