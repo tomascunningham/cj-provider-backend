@@ -1,0 +1,51 @@
+version: "3.9"
+services:
+    # dynamodb:
+    #     image: "amazon/dynamodb-local"
+    #     volumes: 
+    #         - ./elasticsearch:/usr/share/elasticsearch/data
+    #     ports: 
+    #         - "8000:8000"
+    # dynamodb-seed:
+    #     build: ./provider-scorecard/seed/.
+    #     depends_on: 
+    #         - elastic-search
+    #     command: python3 seed_db.py
+    #     volumes: 
+    #         - ./.aws:/root/.aws
+    #     depends_on: 
+    #         - dynamodb
+    # provider-scorecard:
+    #     build: ./provider-scorecard/.
+    #     ports:
+    #         - "4005:4005"
+    #         - "3005:3005"
+    #     volumes: 
+    #         - ../cj-provider-scorecard-api:/provider
+    #         - ./.aws:/root/.aws
+    #     depends_on: 
+    #         - dynamodb
+    elastic-search:
+        image: "docker.elastic.co/elasticsearch/elasticsearch:7.9.3"
+        volumes: 
+            - ./elasticsearch:/usr/share/elasticsearch/data
+        ports: 
+            - "9200:9200"
+            - "9300:9300"
+        environment: 
+            - discovery.type=single-node
+    es-seed:
+        build: ../provider-search/docker-config/seed-service/.
+        depends_on: 
+            - elastic-search
+        command: python3 seed_es_index.py
+    provider-search:
+        build: ../provider-search/docker-config/.
+        ports:
+            - "5002:5002"
+            - "5011:5011"
+        volumes: 
+            - ../cj-provider-search-api:/provider
+        depends_on: 
+            - elastic-search
+            - es-seed

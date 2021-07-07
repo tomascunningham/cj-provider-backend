@@ -1,0 +1,586 @@
+{
+  "npi": 1730400292,
+  "year": 2020,
+  "displayName": "TUUK, DAVID",
+  "regions": [
+    "CO"
+  ],
+  "specialty": "Ophthalmology",
+  "CJspecialty": "Adult EYE Surgery",
+  "createdTs": "2021-02-17T22:48:26.401Z",
+  "updatedTs": "2021-02-17T22:48:26.401Z",
+  "ppiScorecard": {
+    "feeForService": {
+      "costAnalytics": {
+        "costScore": 2,
+        "total": {
+          "numEpisodes": 94,
+          "regionalEpisode": 101,
+          "physicianCost": 5428,
+          "peerCost": 8699
+        },
+        "episodes": [
+          {
+            "type": "CC - Diabetes",
+            "numEpisodes": 11,
+            "regionalEpisode": 18,
+            "physicianCost": 430,
+            "peerCost": 2413
+          },
+          {
+            "type": "CC - Osteoporosis",
+            "numEpisodes": 11,
+            "regionalEpisode": 18,
+            "physicianCost": 2312,
+            "peerCost": 5042
+          },
+          {
+            "type": "CC - Hyperlipidemia",
+            "numEpisodes": 15,
+            "regionalEpisode": 22,
+            "physicianCost": 13110,
+            "peerCost": 8146
+          },
+          {
+            "type": "CC - Obesity",
+            "numEpisodes": 22,
+            "regionalEpisode": 30,
+            "physicianCost": 2498,
+            "peerCost": 3438
+          },
+          {
+            "type": "CC - Acquired Hypothyroidism",
+            "numEpisodes": 28,
+            "regionalEpisode": 38,
+            "physicianCost": 3274,
+            "peerCost": 10251
+          },
+          {
+            "type": "CC - Acquired Hypothyroidism",
+            "numEpisodes": 28,
+            "regionalEpisode": 38,
+            "physicianCost": 3274,
+            "peerCost": 10251
+          },
+          {
+            "type": "CC - Acquired Hypothyroidism",
+            "numEpisodes": 28,
+            "regionalEpisode": 38,
+            "physicianCost": 3274,
+            "peerCost": 10251
+          },
+          {
+            "type": "CC - Diavbetes",
+            "numEpisodes": 11,
+            "regionalEpisode": 18,
+            "physicianCost": 430,
+            "peerCost": 2413
+          },
+          {
+            "type": "CC - Osteoporosis",
+            "numEpisodes": 11,
+            "regionalEpisode": 18,
+            "physicianCost": 2312,
+            "peerCost": 5042
+          },
+          {
+            "type": "CC - Hyperlipidemia",
+            "numEpisodes": 15,
+            "regionalEpisode": 22,
+            "physicianCost": 13110,
+            "peerCost": 8146
+          },
+          {
+            "type": "CC - Obesity",
+            "numEpisodes": 22,
+            "regionalEpisode": 30,
+            "physicianCost": 2498,
+            "peerCost": 3438
+          },
+          {
+            "type": "CC - Acquired Hypothyroidism",
+            "numEpisodes": 28,
+            "regionalEpisode": 38,
+            "physicianCost": 3274,
+            "peerCost": 10251
+          },
+          {
+            "type": "CC - Acquired Hypothyroidism",
+            "numEpisodes": 28,
+            "regionalEpisode": 38,
+            "physicianCost": 3274,
+            "peerCost": 10251
+          },
+          {
+            "type": "CC - Acquired Hypothyroidism",
+            "numEpisodes": 28,
+            "regionalEpisode": 38,
+            "physicianCost": 3274,
+            "peerCost": 10251
+          }
+        ]
+      },
+      "qualityAnalytics": {
+        "outcomesScore": 3,
+        "measures": [
+          {
+            "description": "Percent of ED Visits during episodes that were avoidable.",
+            "numerator": "19",
+            "denominator": "37",
+            "rate": "0.51",
+            "peerComparison": 0.18,
+            "danger": true
+          },
+          {
+            "description": "Percent of episodes where member died.",
+            "numerator": "<11",
+            "denominator": "94",
+            "rate": "<11",
+            "peerComparison": 0.68,
+            "danger": false
+          },
+          {
+            "description": "Percent of elegible episodes that dad a colorectal cancer screening.",
+            "numerator": "32",
+            "denominator": "64",
+            "rate": "0.50",
+            "peerComparison": 0.18,
+            "danger": true
+          },
+          {
+            "description": "Percent of elegible episodes that dad a annual flu vaccine. (Oct-Mar)",
+            "numerator": "19",
+            "denominator": "37",
+            "rate": "0.46",
+            "peerComparison": 0.18,
+            "danger": true
+          },
+          {
+            "description": "Percent of episodes in which a patient received appropiate low back imaging.",
+            "numerator": "19",
+            "denominator": "37",
+            "rate": "0.88",
+            "peerComparison": 0.88,
+            "danger": false
+          },
+          {
+            "description": "Percent of ED Visits during episodes that were avoidable.",
+            "numerator": "19",
+            "denominator": "37",
+            "rate": "0.51",
+            "peerComparison": 0.18,
+            "danger": true
+          },
+          {
+            "description": "Percent of episodes where member died.",
+            "numerator": "<11",
+            "denominator": "94",
+            "rate": "<11",
+            "peerComparison": 0.68,
+            "danger": true
+          },
+          {
+            "description": "Percent of elegible episodes that dad a colorectal cancer screening.",
+            "numerator": "32",
+            "denominator": "64",
+            "rate": "0.50",
+            "peerComparison": 0.18,
+            "danger": true
+          },
+          {
+            "description": "Percent of elegible episodes that dad a annual flu vaccine. (Oct-Mar)",
+            "numerator": "19",
+            "denominator": "37",
+            "rate": "0.46",
+            "peerComparison": 0.18,
+            "danger": true
+          },
+          {
+            "description": "Percent of episodes in which a patient received appropiate low back imaging.",
+            "numerator": "19",
+            "denominator": "37",
+            "rate": "0.88",
+            "peerComparison": 0.88,
+            "danger": true
+          },
+          {
+            "description": "Percent of ED Visits during episodes that were avoidable.",
+            "numerator": "19",
+            "denominator": "37",
+            "rate": "0.51",
+            "peerComparison": 0.18,
+            "danger": true
+          },
+          {
+            "description": "Percent of episodes where member died.",
+            "numerator": "<11",
+            "denominator": "94",
+            "rate": "<11",
+            "peerComparison": 0.68,
+            "danger": true
+          },
+          {
+            "description": "Percent of elegible episodes that dad a colorectal cancer screening.",
+            "numerator": "32",
+            "denominator": "64",
+            "rate": "0.50",
+            "peerComparison": 0.18,
+            "danger": true
+          },
+          {
+            "description": "Percent of elegible episodes that dad a annual flu vaccine. (Oct-Mar)",
+            "numerator": "19",
+            "denominator": "37",
+            "rate": "0.46",
+            "peerComparison": 0.18,
+            "danger": true
+          },
+          {
+            "description": "Percent of episodes in which a patient received appropiate low back imaging.",
+            "numerator": "19",
+            "denominator": "37",
+            "rate": "0.88",
+            "peerComparison": 0.88,
+            "danger": true
+          },
+          {
+            "description": "Percent of ED Visits during episodes that were avoidable.",
+            "numerator": "19",
+            "denominator": "37",
+            "rate": "0.51",
+            "peerComparison": 0.18,
+            "danger": true
+          },
+          {
+            "description": "Percent of episodes where member died.",
+            "numerator": "<11",
+            "denominator": "94",
+            "rate": "<11",
+            "peerComparison": 0.68,
+            "danger": true
+          },
+          {
+            "description": "Percent of elegible episodes that dad a colorectal cancer screening.",
+            "numerator": "32",
+            "denominator": "64",
+            "rate": "0.50",
+            "peerComparison": 0.18,
+            "danger": true
+          },
+          {
+            "description": "Percent of elegible episodes that dad a annual flu vaccine. (Oct-Mar)",
+            "numerator": "19",
+            "denominator": "37",
+            "rate": "0.46",
+            "peerComparison": 0.18,
+            "danger": true
+          },
+          {
+            "description": "Percent of episodes in which a patient received appropiate low back imaging.",
+            "numerator": "19",
+            "denominator": "37",
+            "rate": "0.88",
+            "peerComparison": 0.88,
+            "danger": true
+          }
+        ]
+      }
+    }
+  },
+  "practiceGroups": [
+    {
+      "practiceGroup": "Meadows Family Medical Center Inc",
+      "isPCP": false,
+      "regions": [
+        "CO"
+      ],
+      "profile": {
+        "address": "2546 Street. Colorado, CO 8907",
+        "cbsa": "Colorado Springs, CO",
+        "episodeTypes": [
+          "glaucoma",
+          "cataracts",
+          "diabetic retinopathy"
+        ],
+        "totalPatientsSeen": 245,
+        "avgCostPerEpisode": 619,
+        "averageHCCScore": {
+          "value": 1.24,
+          "benchmark": 2.50
+        },
+        "mortalityRate": {
+          "value": 0.03,
+          "benchmark": 0.5
+        },
+        "readmissionRate": {
+          "value": 0.26,
+          "benchmark": 0.5
+        }
+      },
+      "threeSixtyProfile": {
+        "feeForService": {
+          "costAndUtilizationMetrics": {
+            "procedures": [
+              {
+                "code": 29897,
+                "procedureGroup": "Arthroscopy",
+                "description": "ARTHROSCOPY, ANKLE (TIBIOTALAR AND FIBULOTALAR JOINTS), SURGICAL; DEBRIDEMENT, LIMITED",
+                "costPerSercive": 123654,
+                "count": 220,
+                "cost": 654589
+              },
+              {
+                "code": 27634,
+                "procedureGroup": "Arthroscopy",
+                "description": "ARTHROSCOPY, ANKLE (TIBIOTALAR AND FIBULOTALAR JOINTS), SURGICAL; DEBRIDEMENT, LIMITED",
+                "costPerSercive": 123654,
+                "count": 220,
+                "cost": 654589
+              },
+              {
+                "code": 28405,
+                "procedureGroup": "Arthroscopy",
+                "description": "ARTHROSCOPY, ANKLE (TIBIOTALAR AND FIBULOTALAR JOINTS), SURGICAL; DEBRIDEMENT, LIMITED",
+                "costPerSercive": 123654,
+                "count": 220,
+                "cost": 654589
+              },
+              {
+                "code": 29906,
+                "procedureGroup": "Benign tumor removal",
+                "description": "EXCISION, TUMOR, SOFT TISSUE OF LEG OR ANKLE AREA, SUBCUTANEOUS; 3 CM OR GREATER",
+                "costPerSercive": 3587,
+                "count": 215,
+                "cost": 280004
+              }
+            ],
+            "professional": [
+              {
+                "label": "Test Paid",
+                "spend": 1300,
+                "benchmark": 1700,
+                "danger": false
+              },
+              {
+                "label": "Procedures Paid",
+                "spend": 1800,
+                "benchmark": 2420,
+                "danger": false
+              },
+              {
+                "label": "Other Paid",
+                "spend": 700,
+                "benchmark": 1900,
+                "danger": false
+              },
+              {
+                "label": "Outpatients",
+                "spend": 600,
+                "benchmark": 1100,
+                "danger": false
+              },
+              {
+                "label": "Imaging Paid",
+                "spend": 2400,
+                "benchmark": 1600,
+                "danger": true
+              },
+              {
+                "label": "E&M Paid",
+                "spend": 2200,
+                "benchmark": 2000,
+                "danger": true
+              },
+              {
+                "label": "DME Paid",
+                "spend": 2200,
+                "benchmark": 2300,
+                "danger": false
+              },
+              {
+                "label": "Ambulances Paid",
+                "spend": 2200,
+                "benchmark": 2200,
+                "danger": false
+              }
+            ],
+            "totalAllowed": {
+              "total": 91300,
+              "SNF": 2300,
+              "ER Hospital": 2300,
+              "ASC": 2300,
+              "Inpatient Hospital": 2300,
+              "Pharmacy": 2300,
+              "Urgent Care Facility": 300,
+              "Home": 2300,
+              "Office": 2300,
+              "Nursing Facility": 2300,
+              "Hospice": 2300
+            }
+          },
+          "affiliationAndReferralsMetrics": {
+            "affiliationMetrics": {
+              "hospitalIdentifier": 60024,
+              "hospitalName": "Denver Health & Hospital Authority",
+              "advancedPaymentModelName": "Medicare Shared Savings Program Accountable Care Organizations"
+            },
+            "topReferrals": {
+              "specialistToPlannedProcedures": [
+                {
+                  "providerName": "Vanacharla, Saroja",
+                  "type": "Routine chest X-ray",
+                  "referralPercentage": 0.0061,
+                  "practice": "Integrated Medical Group, P.C.",
+                  "specialty": "Hospitalist",
+                  "costScore": 1,
+                  "outcomeScore": 1,
+                  "totalPatients": 18,
+                  "totalAllowed": 2687
+                },
+                {
+                  "providerName": "Korbaj, Rabee",
+                  "type": "Hip replacement; total and partial",
+                  "referralPercentage": 0.0031,
+                  "practice": "Boris D Ratiner, Md, Inc",
+                  "specialty": "Hospitalist",
+                  "costScore": 2,
+                  "outcomeScore": 3,
+                  "totalPatients": 255,
+                  "totalAllowed": 2339
+                }
+              ]
+            }
+          },
+          "patientPanel": {
+            "behavioralAndMentalHealthCC": {
+              "Depression": 55,
+              "ADHD, Conduct Disorders, and Hyperkinetic Syndrome": 53,
+              "Anxiety Disorders": 49,
+              "Autism Spectrum Disorders": 40,
+              "Bipolar Disorder": 35,
+              "Depressive Disorders": 20,
+              "Personality Disorders": 15
+            },
+            "highNeedsHighCostSegmentation": {
+              "total": 241,
+              "Frail Elderly ": 46,
+              "Healthy Patients": 24,
+              "Patients with Simple CC": 1500,
+              "Patients with Minor CC": 2400,
+              "Patients with Major CC": 300
+            }
+          }
+        },
+        "commercial": {
+          "costAndUtilizationMetrics": {
+            "professional": [
+              {
+                "label": "Test Paid",
+                "spend": 1300,
+                "benchmark": 1700,
+                "danger": false
+              },
+              {
+                "label": "Procedures Paid",
+                "spend": 1800,
+                "benchmark": 2420,
+                "danger": false
+              },
+              {
+                "label": "Other Paid",
+                "spend": 700,
+                "benchmark": 1900,
+                "danger": false
+              },
+              {
+                "label": "Outpatients",
+                "spend": 600,
+                "benchmark": 1100,
+                "danger": false
+              },
+              {
+                "label": "Imaging Paid",
+                "spend": 2400,
+                "benchmark": 1600,
+                "danger": true
+              },
+              {
+                "label": "E&M Paid",
+                "spend": 2200,
+                "benchmark": 2000,
+                "danger": true
+              },
+              {
+                "label": "DME Paid",
+                "spend": 2200,
+                "benchmark": 2300,
+                "danger": false
+              },
+              {
+                "label": "Ambulances Paid",
+                "spend": 2200,
+                "benchmark": 2200,
+                "danger": false
+              }
+            ]
+          },
+          "affiliationAndReferralsMetrics": {
+            "affiliationMetrics": {
+              "hospitalIdentifier": 60024,
+              "hospitalName": "Denver Health & Hospital Authority",
+              "advancedPaymentModelName": "Medicare Shared Savings Program Accountable Care Organizations"
+            },
+            "topHospitalReferrals": [
+              {
+                "hospitalName": "At Home Care",
+                "facilityType": "Home Health Agency",
+                "CMSStarRating": 3.5,
+                "totalPatients": "13",
+                "totalAllowed": 33900
+              },
+              {
+                "hospitalName": "At Home Care",
+                "facilityType": "Home Health Agency",
+                "CMSStarRating": 3.5,
+                "totalPatients": "13",
+                "totalAllowed": 33900
+              },
+              {
+                "hospitalName": "At Home Care",
+                "facilityType": "Home Health Agency",
+                "CMSStarRating": 3.5,
+                "totalPatients": "13",
+                "totalAllowed": 33900
+              },
+              {
+                "hospitalName": "At Home Care",
+                "facilityType": "Home Health Agency",
+                "CMSStarRating": 3.5,
+                "totalPatients": "13",
+                "totalAllowed": 33900
+              },
+              {
+                "hospitalName": "At Home Care",
+                "facilityType": "Home Health Agency",
+                "CMSStarRating": 3.5,
+                "totalPatients": "13",
+                "totalAllowed": 33900
+              }
+            ]
+          },
+          "patientPanel": {
+            "behavioralAndMentalHealthCC": {
+              "Depression": 55,
+              "ADHD, Conduct Disorders, and Hyperkinetic Syndrome": 53,
+              "Anxiety Disorders": 49,
+              "Autism Spectrum Disorders": 40,
+              "Bipolar Disorder": 35,
+              "Depressive Disorders": 20,
+              "Personality Disorders": 15
+            }
+          }
+        }
+      }
+    }
+  ]
+}
